@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <web-app>
+	<servlet>
+		<servlet-name>serv</servlet-name>
+		<servlet-class>Redirect</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serv</servlet-name>
+		<url-pattern>/rs</url-pattern>
+	</servlet-mapping>
+</web-app>

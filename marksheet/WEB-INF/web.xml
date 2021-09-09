@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app>
+
+  <servlet>
+    <servlet-name>result1</servlet-name>
+    <servlet-class>Marksheet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>result1</servlet-name>
+    <url-pattern>/ms</url-pattern>
+    <!-- pattern for identification of this specific servlet -->
+  </servlet-mapping>
+
+</web-app>
