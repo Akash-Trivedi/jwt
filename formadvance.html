@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8080/jwt/afh">
+        Name:<input type="text" name="name"><br/>
+        Create password:<input type="text" name="password"><br/>
+        Age:<input type="text" name="age"><br/>
+
+        <p>Please select your favorite Web language:</p>
+          <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">HTML</label><br>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">CSS</label><br>
+          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+          <label for="javascript">JavaScript</label><br/>
+
+            <label for="cars">Choose a car:</label>
+                <select name="cars" multiple>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+        <input type="submit" value="register"><br/>
+    </form>
+</body>
+</html>

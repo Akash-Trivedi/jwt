@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
  <web-app>
+	 <!-- browser -->
 	<servlet>
 		<servlet-name>serv</servlet-name>
 		<servlet-class>Browser</servlet-class>
@@ -8,4 +9,65 @@
 		<servlet-name>serv</servlet-name>
 		<url-pattern>/ch1</url-pattern>
 	</servlet-mapping>
+
+	<!-- cookie1 -->
+	<servlet>
+		<servlet-name>serv</servlet-name>
+		<servlet-class>Cookie1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serv</servlet-name>
+		<url-pattern>/cookie1</url-pattern>
+	</servlet-mapping>
+
+	<!-- form handling -->
+	<servlet>
+		<servlet-name>serv</servlet-name>
+		<servlet-class>Form</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serv</servlet-name>
+		<url-pattern>/fh</url-pattern>
+	</servlet-mapping>
+
+	<!-- Advance form handling -->
+	<servlet>
+		<servlet-name>serv</servlet-name>
+		<servlet-class>FormAdvance</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serv</servlet-name>
+		<url-pattern>/afh</url-pattern>
+	</servlet-mapping>
+
+	<!-- headers in servlet -->
+	<servlet>
+		<servlet-name>serv</servlet-name>
+		<servlet-class>Headers</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serv</servlet-name>
+		<url-pattern>/hd</url-pattern>
+	</servlet-mapping>
+
+	<!-- use of referer in servlet -->
+	<servlet>
+		<servlet-name>serv</servlet-name>
+		<servlet-class>RedirectReferer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serv</servlet-name>
+		<url-pattern>/rf</url-pattern>
+	</servlet-mapping>
+
+	<!-- use of referer in servlet -->
+	<servlet>
+		<servlet-name>serv</servlet-name>
+		<servlet-class>ResponseHeader</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serv</servlet-name>
+		<url-pattern>/resh</url-pattern>
+	</servlet-mapping>
+
 </web-app>
