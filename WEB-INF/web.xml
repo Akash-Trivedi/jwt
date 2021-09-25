@@ -2,61 +2,61 @@
  <web-app>
 	 <!-- browser -->
 	<servlet>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>browser</servlet-name>
 		<servlet-class>Browser</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>browser</servlet-name>
 		<url-pattern>/ch1</url-pattern>
 	</servlet-mapping>
 
 	<!-- cookie1 -->
 	<servlet>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>cookie1</servlet-name>
 		<servlet-class>Cookie1</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>cookie1</servlet-name>
 		<url-pattern>/cookie1</url-pattern>
 	</servlet-mapping>
 
 	<!-- form handling -->
 	<servlet>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>form</servlet-name>
 		<servlet-class>Form</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>form</servlet-name>
 		<url-pattern>/fh</url-pattern>
 	</servlet-mapping>
 
 	<!-- Advance form handling -->
 	<servlet>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>advanceform</servlet-name>
 		<servlet-class>FormAdvance</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>advanceform</servlet-name>
 		<url-pattern>/afh</url-pattern>
 	</servlet-mapping>
 
 	<!-- headers in servlet -->
 	<servlet>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>header</servlet-name>
 		<servlet-class>Headers</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>header</servlet-name>
 		<url-pattern>/hd</url-pattern>
 	</servlet-mapping>
 
 	<!-- use of referer in servlet -->
 	<servlet>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>redirect</servlet-name>
 		<servlet-class>RedirectReferer</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>serv</servlet-name>
+		<servlet-name>redirect</servlet-name>
 		<url-pattern>/rf</url-pattern>
 	</servlet-mapping>
 

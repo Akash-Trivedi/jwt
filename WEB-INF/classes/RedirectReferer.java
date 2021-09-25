@@ -17,6 +17,8 @@ public class RedirectReferer extends HttpServlet{
             // string conversion is not allowed
             if(req.getHeader("referer").equals("http://localhost:8080/jwt/checkreferer.html"))
                 p.println("you got it right");
+            else
+                res.setStatus(HttpServletResponse.SC_PRECONDITION_FAILED);
         } else{
             res.sendRedirect("http://localhost:8080/jwt/redirectsuccess.html");
         }

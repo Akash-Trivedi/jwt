@@ -22,8 +22,6 @@ public class Cookie2 extends HttpServlet{
             }
             if(!found){
                 p.println("Welcome new user among others");
-                testpackage a=new testpackage();
-                p.println(a.getInteger());
                 Cookie newUser= new Cookie("name-user", "Akash-Trivedi");
                 // cookie value contains '-'
                 res.addCookie(newUser);
