@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class Cookie1 extends HttpServlet{
+public class Cookie2 extends HttpServlet{
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException{
         res.setContentType("text/html");
         boolean found=false;
@@ -21,10 +21,11 @@ public class Cookie1 extends HttpServlet{
                 }
             }
             if(!found){
-                p.println("Welcome new user");
+                p.println("Welcome new user among others");
+                testpackage a=new testpackage();
+                p.println(a.getInteger());
                 Cookie newUser= new Cookie("name-user", "Akash-Trivedi");
                 // cookie value contains '-'
-                newUser.setMaxAge(60*2);
                 res.addCookie(newUser);
             }
         } else{
