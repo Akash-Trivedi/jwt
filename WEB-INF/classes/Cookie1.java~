@@ -22,8 +22,8 @@ public class Cookie1 extends HttpServlet{
             }
             /*
             *enhanced for loop used
-            for(Cookie ck1: ck){
-                if(ck1.getName().equals("name-user") && ck1.getValue().equals("Akash-Trivedi")){
+            for(Cookie ck: ck){
+                if(ck[i].getName().equals("name-user") && ck[i].getValue().equals("Akash-Trivedi")){
                     p.println("welcome again!");
                     found=true;
                 }
